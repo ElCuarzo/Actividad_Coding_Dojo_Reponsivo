@@ -1,0 +1,61 @@
+@media only screen and (max-width: 480px){
+    .Cuadro2 {
+        height: auto;
+        width: 200px;
+    }
+    .Cuadro3 {
+        height: 100px;
+    }
+}
+@media only screen and (min-width: 481px){
+    .Cuadro2 {
+        height: 100px;
+        width: 90%;
+    }
+}
+@media  only screen and (min-width: 1024){
+    .Cuadro2 {
+        height: 200px;
+        width: 90%;
+    }
+}
+.Cuadro1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: gray;
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.Cuadro2{
+    display: flex;
+    background-color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 90%;
+    height: auto;
+    margin-top: 0;
+    display: flex;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.Cuadro3{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: yellowgreen;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.negrita{
+    font-weight: bold;
+}
+.texto{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.Cuadrado2 p{
+    text-indent: 0;
+}
